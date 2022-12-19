@@ -17,7 +17,7 @@
 
 <link rel="stylesheet" href="./donateStyle.css">
     
-
+<title>PURCHASE</title>
 </head>
 
 <body>
@@ -45,17 +45,14 @@
     <!--Header Content-->
     <header>
         
-        </div>
-        </div>
-        </div>
-        </div>
+      
     </header>
     <section class="container content-section">
           
         <div class="shop-items">
             <div class="shop-item">
                 <span class="shop-item-title">Sri Lanka Ruby</span>
-                <img class="shop-item-image" src="./img/Donate/gemstone-8.gif">
+                <img class="shop-item-image" src="./img/Donate/gemstone-8.gif" alt="Red Ruby">
                 <div class="shop-item-details">
                     <span class="shop-item-price">$12.99</span>
                     <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
@@ -63,7 +60,7 @@
             </div>
             <div class="shop-item">
                 <span class="shop-item-title">Coconut Milk</span>
-                <img class="shop-item-image" src="./img/Donate/coconut-products.jpg">
+                <img class="shop-item-image" src="./img/Donate/coconut-products.jpg" alt="Coconut Milk">
                 <div class="shop-item-details">
                     <span class="shop-item-price">$14.99</span>
                     <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
@@ -71,7 +68,7 @@
             </div>
             <div class="shop-item">
                 <span class="shop-item-title">Cinamon Sticks</span>
-                <img class="shop-item-image" src="./img/Donate/Cinamon.jpg">
+                <img class="shop-item-image" src="./img/Donate/Cinamon.jpg" alt="Cinammon Sticks">
                 <div class="shop-item-details">
                     <span class="shop-item-price">$9.99</span>
                     <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
@@ -79,7 +76,7 @@
             </div>
             <div class="shop-item">
                 <span class="shop-item-title">Gara Yaka</span>
-                <img class="shop-item-image" src="./img/Donate/yaka.webp">
+                <img class="shop-item-image" src="./img/Donate/yaka.webp" alt="Gara Yaka Face Mask">
                 <div class="shop-item-details">
                     <span class="shop-item-price">$19.99</span>
                     <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
@@ -95,8 +92,8 @@
         <h2 class="section-header">CART</h2>
         <div class="cart-row">
             <span class="cart-item cart-header cart-column">ITEM</span>
-            <span class="cart-price cart-header cart-column">PRICE</span>
-            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            <span class="cart-price cart-header cart-column">PRICE </span>
+            <span class="cart-quantity cart-header cart-column">&nbsp;&nbsp;&nbsp;&nbsp;QUANTITY</span>
         </div>
         <div class="cart-items" id="cart">
         </div>
@@ -106,8 +103,10 @@
         </div>
         
         <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
-        <button id="add-to-favorites">Add to Favorites</button>
-  <button id="order-favorites">Order Favorites</button>
+        <button class="btn4" id="add-to-favorites">Add to Favorites</button>
+        <br>
+        <br><br>
+  <button class="btn3" id="order-favorites">Order Favorites</button>
     </section>
 </section>
     <!--Introduction Paragraph-->
@@ -122,7 +121,7 @@
     <p>
         Copyright © 2022 Tea Lanka
     </p>
-    
+    </div>
    
     
 </section>
@@ -137,6 +136,7 @@
             })
 
         </script>
+        </div>
 <script src="./Cart.js"></script>
 
 </body>
