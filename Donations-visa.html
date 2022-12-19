@@ -7,7 +7,7 @@
     
     
     <link rel="stylesheet" href="./visa.css">
-
+    <title>Donations</title>
 </head>
 <body>
   <section id="logo">
@@ -122,14 +122,14 @@
 
     </div>
 
-    <form id="credit-card" action="">
+    <form id="credit-card" >
         <div class="inputBox">
             <span>card number</span>
             <input type="text" maxlength="19" class="card-number-input" id= "credit-card" required onkeypress="return event.charCode >=48 && event.charCode <= 57" >
         </div>
         <div class="inputBox">
             <span>card holder</span>
-            <input type="text" id= "name-text" class="card-holder-input" maxlength="21"required onkeypress="return(event.charCode >64 && event.charCode<91  ) || (event.charCode >96 && event.charCode <123) || event.key ==' ' ">
+            <input type="text" id= "name-text" class="card-holder-input" maxlength="21" required onkeypress="return(event.charCode >64 && event.charCode<91  ) || (event.charCode >96 && event.charCode <123) || event.key ==' ' ">
         </div>
         <div class="inputBox">
             <span>Address</span>
@@ -155,7 +155,7 @@
                     <option value="12">12</option>
                 </select>
             </div>
-            <div class="inputBox" id="down-input"required>
+            <div class="inputBox" id="down-input">
                 <span>expiration yy</span>
                 <select id="year-inpu-id" class="year-input" >
                     <option value="year" >year</option>
