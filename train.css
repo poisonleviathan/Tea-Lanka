@@ -109,7 +109,7 @@ header .nav li:last-child {
 	z-index: -1;
 }
 .box h1 {
-   flex: display;
+  
 	margin-bottom: 15px;
 	font-size: 32px;
     color: #F24822;
@@ -319,7 +319,7 @@ ticket-radio{
     z-index: -1;
   }
   .box1 h1 {
-     flex: display;
+    
     margin-bottom: 15px;
     font-size: 32px;
       color: #F24822;
