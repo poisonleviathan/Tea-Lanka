@@ -156,14 +156,17 @@ function submit1(){
 
         document.getElementById("price1").innerText = currentTickets;
 
-        let currentPrice = parseInt(document.getElementById("no1").value * 3000) + parseInt(document.getElementById("no2").value * 2500) + parseInt(document.getElementById("no4").value * 2500) + parseInt(document.getElementById("no5").value * 1000) + parseInt(document.getElementById("no6").value * 500) + parseInt(document.getElementById("ex1").value * 5000) + parseInt(document.getElementById("xx1").value * 500) + parseInt(document.getElementById("ex").value * 5000) + parseInt(document.getElementById("xx").value * 500 + ex + exx);
+        let currentPrice = parseInt(document.getElementById("no1").value * 3000) + parseInt(document.getElementById("no2").value * 2500) + parseInt(document.getElementById("no4").value * 2500) + parseInt(document.getElementById("no5").value * 1000) + parseInt(document.getElementById("no6").value * 500) + parseInt(document.getElementById("ex1").value * 5000) + parseInt(document.getElementById("xx1").value * 500) + parseInt(document.getElementById("ex").value * 5000) + parseInt(document.getElementById("xx").value * 500 )+ ex + exx;
         console.log(currentPrice);
 
         document.getElementById("price3").innerText = currentPrice;
-       
-        
+      
     }
-let btnsubmit=document.getElementById("submit2");
-btnsubmit.addEventListener("click",submit);
+
+
+let btnsubmit1231=document.getElementById("submit2");
+btnsubmit123.addEventListener("click",submit123);
+function submit123() {
 alert{ "Tickets Have been booked for udarta manike Train"
+     }
 }
