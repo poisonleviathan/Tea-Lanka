@@ -166,4 +166,4 @@ function submit1(){
 let btnsubmit=document.getElementById("submit2");
 btnsubmit.addEventListener("click",submit);
 alert{ "Tickets Have been booked for udarta manike Train"
-};
+}
