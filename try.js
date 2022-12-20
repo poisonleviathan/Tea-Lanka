@@ -167,5 +167,5 @@ function submit1(){
     let abc= document.getElementById("abcd");
     abc.addEventListener("click",abcde)
     function abcde(){
-        alert("Thnak you for Purchasing Tickets For Udarata Manike");
+        alert("Thank you for Purchasing Tickets For Udarata Manike");
     }
