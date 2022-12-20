@@ -76,7 +76,7 @@ header{
 
 }
 .shape-divder{
-    margin-bottom: 8px solid var(--white);
+    margin-bottom: 8px solid #DCE1DE;
     
     position:absolute;
     bottom: 0;
